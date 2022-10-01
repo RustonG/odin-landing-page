@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap"
+    rel="stylesheet">
   <title>Landing Page</title>
 </head>
 
@@ -12,34 +17,81 @@
   <header>
     <h3>Header Logo</h3>
     <ul>
-      <li><a>header link one</a></li>
-      <li><a>header link two</a></li>
-      <li><a>header link three</a></li>
+      <li><a href="#" target="_blank">header link one</a></li>
+      <li><a href="#" target="_blank">header link two</a></li>
+      <li><a href="#" target="_blank">header link three</a></li>
     </ul>
   </header>
-  <section>
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
-      contrast.</p>
-    <button>Sign up</button>
-    <img alt="this is a placeholder for an image">
+  <section class="hero">
+    <div class="hero-left">
+      <h1>This website is awesome</h1>
+      <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower
+        contrast.</p>
+      <button>Sign up</button>
+    </div>
+    <div class="hero-right">
+      <img class="hero-img" src="./images/ralu-gal-G8cB8hY3yvU-unsplash.jpg"
+        alt="happy ginger and white dog lying on the grass">
+      <p>
+        Photo by <a
+          href="https://unsplash.com/@ralu_gal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ralu
+          Gal</a> on <a
+          href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+      </p>
+    </div>
   </section>
-  <section>
+  <section class="image-section">
     <h2>Some random information.</h2>
-    <img>
-    <img>
-    <img>
-    <img>
+    <div class="image-container">
+      <div>
+        <img src="./images/oscar-sutton-yihlaRCCvd4-unsplash.jpg" alt="happy ginger dog running on the beach">
+        <p>Photo by <a
+            href="https://unsplash.com/@o5ky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Oscar
+            Sutton</a> on <a
+            href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+      </div>
+      <div>
+        <img src="./images/celine-sayuri-tagami-2s6ORaJY6gI-unsplash.jpg"
+          alt="golden retriever holding a pink flower in its mouth">
+        <p>Photo by <a
+            href="https://unsplash.com/@celine_sayuri?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Celine
+            Sayuri Tagami</a> on <a
+            href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+      </div>
+      <div>
+        <img src="./images/marek-szturc-CM1oVEUzsNM-unsplash.jpg" alt="majestic white dog lying on white snow">
+        <p>Photo by <a
+            href="https://unsplash.com/@marxgall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marek
+            Szturc</a> on <a
+            href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+      </div>
+      <div>
+        <img src="./images/filipe-cantador-ebXYVYqjt4k-unsplash.jpg"
+          alt="ginger-white dog suspiciously squinting at the camera">
+        <p>Photo by <a
+            href="https://unsplash.com/@filipe_cantador?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Filipe
+            Cantador</a> on <a
+            href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+      </div>
+    </div>
   </section>
-  <section>
-    <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people
+  <section class="quote-section">
+    <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or
+      maybe people
       will actually read it. Who knows? All I know is that it looks nice.</p>
-    <p>-Thor, God of Thunder</p>
+    <p class="quote-author">-Thor, God of Thunder</p>
   </section>
-  <section>
-    <h3>Call to action! It's time!</h3>
-    <p>Sign up for our product by clicking that button right over there!</p>
-    <button>Sign up</button>
+  <section class="action-call-section">
+    <div class="action-call">
+      <h3>Call to action! It's time!</h3>
+      <p>Sign up for our product by clicking that button right over there!</p>
+    </div>
+    <button class="action-button">Sign up</button>
   </section>
   <footer>
     <p>Copyright © The Odin Project 2021</p>
